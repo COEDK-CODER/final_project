@@ -1,0 +1,43 @@
+.NewUsersPage {
+  font-family: sans-serif;
+  margin-top: 35px;
+  padding: 20px;
+background-color: antiquewhite;
+border-radius: 10px;
+}
+
+.NewUsers-title {
+  font-size: 35px;
+  padding-bottom: 30px;
+  color: darkblue;
+}
+
+.Form-section-label {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.Form-section {
+  padding-bottom: 15px;
+}
+.Form-section-authenticate{
+  padding-bottom: 15px;
+  display: flex;
+}
+
+.Form-section-input {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.Form-section-submit {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 4px;
+}
