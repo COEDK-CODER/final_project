@@ -1,0 +1,40 @@
+body{
+  width: max-content;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.MenuPageTitle{
+  margin-left: 190px;
+  line-height: 2;
+  font-size: 30px;
+
+}
+.MenuSection{
+
+    padding: 30px;
+    margin-right: 50px;
+}
+.MenuSection-title{
+  font-size: 25px;
+
+  color: chocolate;
+}
+.MenuItem{
+
+}
+.MenuItem-list{
+  padding: 5px;
+}
+.MenuItem-container{
+  display: inline-flex;
+  padding: 5px;
+}
+.Menu{
+  display: flex;
+}
+.MenuItem-price{
+  margin-left: 30px;
+}
+.MenuItem-quantity{
+  margin-left: 20px;
+}

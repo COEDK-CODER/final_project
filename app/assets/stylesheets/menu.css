@@ -1,0 +1,47 @@
+
+.MenuPageTitle{
+
+  line-height: 2;
+  font-size: 30px;
+  background-color: antiquewhite;
+  margin-top: 40px;
+  padding-left: 200px;
+
+}
+.MenuSection{
+
+    padding: 30px;
+    margin-right: 50px;
+    background-color: aliceblue;
+}
+.MenuSection-title{
+  font-size: 25px;
+  color: chocolate;
+}
+.MenuItem{
+
+}
+.MenuItem-list{
+  padding: 5px;
+}
+.MenuItem-container{
+  display: inline-flex;
+  padding: 5px;
+}
+.Menu{
+  display: flex;
+}
+.MenuItem-price{
+  margin-left: 30px;
+}
+.MenuItem-quantity{
+  margin-left: 20px;
+}
+.User-credentials{
+  font-size: 25px;
+  padding: 5px;
+  background-color: darkblue;
+  justify-content: space-between;
+  color: white;
+
+}

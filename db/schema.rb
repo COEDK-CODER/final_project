@@ -10,7 +10,28 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_04_21_025749) do
+ActiveRecord::Schema.define(version: 2020_04_22_053938) do
+
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
+  create_table "menu_items", force: :cascade do |t|
+    t.string "menu_item"
+    t.string "description"
+    t.integer "price"
+    t.bigint "menu_id"
+  end
+
+  create_table "menus", force: :cascade do |t|
+    t.string "menu_name"
+  end
+
+  create_table "todos", force: :cascade do |t|
+    t.text "todo_text"
+    t.date "due_date"
+    t.boolean "completed"
+    t.bigint "user_id"
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "first_name"

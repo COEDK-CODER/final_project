@@ -1,5 +1,6 @@
-.body{
+body{
   background-color: aliceblue;
+
 }
 .Cafeteria-authenticate{
   font-size: 20px;
@@ -36,5 +37,4 @@
   color:brown;
 }
 .Cafeteria-footer{
-
-}
+  }

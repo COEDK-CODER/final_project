@@ -4,4 +4,7 @@ Rails.application.routes.draw do
   get "/signin", to: "sessions#new", as: :new_sessions
   post "/signin", to: "sessions#create", as: :sessions
   resources :users
+  resources :menu
+  resources :order
+  delete "/signout", to: "sessions#destroy", as: :destroy_session
 end

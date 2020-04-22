@@ -1,0 +1,25 @@
+.OrderCart {
+  border:1px solid #C0C0C0;
+  border-collapse:collapse;
+  padding:5px;
+  width: 200%;
+  margin: 0px;
+  margin-left: -120px;
+
+
+}
+.OrderCart th {
+  border:1px solid #C0C0C0;
+  padding:5px;
+  background:#F0F0F0;
+}
+.OrderCart td {
+  border:1px solid #C0C0C0;
+  padding:5px;
+}
+.CartTitle{
+  font-size: 40px;
+  margin: 20px auto;
+  padding: 10px;
+
+}
